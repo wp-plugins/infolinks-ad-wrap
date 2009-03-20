@@ -105,7 +105,3 @@ add_action('wp_footer', 'infolinks_ad_script');
 	
 	
 ?>
-
-
-
-
