@@ -4,7 +4,7 @@ Contributors: Rubayat Hasan (rubayathasan.com)
 Donate link:
 Requires at least:
 Tested up to: 2.7.1
-Stable Tag: 1.0
+Stable Tag: 1.0.2
 
 Simple plugin to wrap infolinks zone tags around content and/or comments
 

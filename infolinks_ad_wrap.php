@@ -3,7 +3,7 @@
 Plugin Name: Infolinks Ad Wrap
 Plugin URI: http://rubayathasan.com/wordpress/plugin/infolinks-ad-wrap-wordpress-plugin/
 Description: Simple plugin to add infolinks ad to a wordpress web site.
-Version: 1.0.1
+Version: 1.0.2
 Author: Rubayat Hasan
 Author URI: http://rubayathasan.com/
 
@@ -51,7 +51,7 @@ switch($_POST['infolinks_action']){
 	  	else update_option('infolinks_wrap_comment', "No");
 	  	
 	  	if($_POST['infolinks_script'] != "") {
-            update_option('infolinks_script', $_POST['infolinks_script']);
+            update_option('infolinks_script', stripslashes($_POST['infolinks_script']));
         }
 	  	//else update_option('infolinks_wrap_comment', "No");
 	  	break;
